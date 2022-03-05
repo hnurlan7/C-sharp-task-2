@@ -28,11 +28,11 @@ namespace task_2
             #endregion
 
             #region task2
-            string txt = "Nurlan";
+            string txt = Console.ReadLine();
             int count = 0;
             for (int i = 0; i < txt.Length; i++)
             {
-                if (txt[i] == 'a')
+                if (txt[i] == 'a' || txt[i] == 'A')
                 {
                     count++;
                 }
